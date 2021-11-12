@@ -1,0 +1,13 @@
+header {
+  position: fixed;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  width: 100%
+}
+
+div {
+  position: absolute;
+  margin-top: 100px;
+}

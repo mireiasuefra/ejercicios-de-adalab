@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  background-color: grey;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 50%;
+}
+
+.destacada {
+    order: -1;
+    width: 100%;
+}

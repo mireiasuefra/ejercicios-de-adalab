@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 500px;
+    height: 500px;
+
+}
+
+.item {
+    box-sizing: border-box;
+    border: 5px solid black;
+    text-align: center;
+    padding: 5px;
+    background-color: red;
+}

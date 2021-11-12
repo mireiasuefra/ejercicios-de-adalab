@@ -1,0 +1,22 @@
+.caja-1 {
+background-color: yellow;
+width: 500px;
+height: 500px;
+position: absolute;
+}
+.caja-2 {
+  background-color: rgb(0, 255, 64);
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  transform: translate(100px, 100px);
+  }
+  .caja-3 {
+    background-color: rgb(25, 0, 255);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    transform: translate(175px, 175px);
+    box-sizing: border-box;
+    border: 20px dashed;
+    }
