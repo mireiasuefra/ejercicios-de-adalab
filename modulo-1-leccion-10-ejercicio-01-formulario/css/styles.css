@@ -1,0 +1,17 @@
+/*
+El contenido estará centrado dentro del body e irá dentro de un div que tendrá 106px de margen superior
+*/
+
+*{
+  margin: 0;
+  font-size: unset;
+  font: unset;
+}
+
+body {
+  padding: 20px;
+}
+
+input {
+  display: block;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vente conmigo</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <form action="https://adalab-server-form.herokuapp.com/" method="post">
+        <label for="firstname">nombre</label>
+        <input type="text" name="firstname" id="firstname" placeholder="Escribe aquí tu nombre de pila" required>
+
+        <label for="lastname">apellido</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Escribe aquí tu apellido">
+
+        <label for="email">e-mail</label>
+        <input type="email" name="email" id="email" placeholder="email" required>
+
+        <label for="estreet">calle</label>
+        <input type="text" name="street" id="street" placeholder="street" required>
+
+        <label for="city">ciudad</label>
+        <input type="text" name="city" id="city" placeholder="ciudad" required>
+
+        <label for="state">provincia</label>
+        <input type="text" name="state" id="state" placeholder="provincia" value="Madrid" required>
+
+        <label for="country">pais</label>
+        <input type="text" name="country" id="country" placeholder="pais" value="España" required>
+
+        <label for="dni">dni</label>
+        <input type="text" name="dni" id="dni" placeholder="dni" required>
+
+        <label for="telephone">teléfono</label>
+        <input type="tel" name="telephone" id="telephone" placeholder="teléfono" required>
+
+        <label for="password">contraseña</label>
+        <input type="password" name="password" id="password" placeholder="contraseña" required>
+
+        <label for="confirm-password">confirmacion de contraseña</label>
+        <input type="password" name="confirm-password" id="confirm-password" placeholder="confirmacion 
+        de contraseña" required>
+
+        <input type="submit" value="Enviar formulario">
+    </form>
+</body>
+
+</html>
